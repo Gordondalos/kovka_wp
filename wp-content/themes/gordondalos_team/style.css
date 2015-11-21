@@ -1,0 +1,23 @@
+h1,h2,h3{
+	font-family: nautiluspompilius, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.scroling{
+	position: fixed;
+	top: 20%;
+	left: 10px;
+	z-index: 10000;
+
+}
+.scroling li{
+	list-style-type: none;
+	padding: 15px 0;
+}
+
+
+.scroling li a{
+	color: #c0392b;
+	font-size: 20px;
+
+
+}

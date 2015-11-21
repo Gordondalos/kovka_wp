@@ -1,18 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/contact.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/header.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/info_job.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/job.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/menu.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/page.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/photogalereya.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/plus.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/popap.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/section_2.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/slider.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/theme_content.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wp-content/themes/twentythirteen/vid.php" charset="UTF-8" />
-  </component>
-</project>
+<project version="4" />
