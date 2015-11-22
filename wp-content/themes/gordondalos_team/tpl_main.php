@@ -20,11 +20,17 @@ Template Name: Шаблон главной страницы
     </section>
 
 <!--    Наши работы слайдер-->
-    <section class="section_10">
-        <?php include"parts/slider.php"?>
-    </section>
+<!--    <section class="section_10">-->
+<!--        --><?php //include"parts/slider.php"?>
+<!--    </section>-->
 
-
+<?php
+$query1 = new WP_Query('page_id=135');
+while($query1->have_posts()) $query1->the_post(); ;?>
+    <!--    <h2 class="entry-title">--><?php //the_title(); ?><!--</h2>-->
+    <div class="entry-content">
+        <?php the_content(); ?>
+    </div> <?php wp_reset_query(); ?>
 
 
 
@@ -37,7 +43,7 @@ Template Name: Шаблон главной страницы
 <?php
 $query1 = new WP_Query('page_id=70');
 while($query1->have_posts()) $query1->the_post(); ;?>
-    <h2 class="entry-title"><?php the_title(); ?></h2>
+<!--    <h2 class="entry-title">--><?php //the_title(); ?><!--</h2>-->
     <div class="entry-content">
         <?php the_content(); ?>
     </div> <?php wp_reset_query(); ?>
@@ -51,7 +57,7 @@ while($query1->have_posts()) $query1->the_post(); ;?>
 <?php
 $query1 = new WP_Query('page_id=88');
 while($query1->have_posts()) $query1->the_post(); ;?>
-    <h2 class="entry-title"><?php the_title(); ?></h2>
+<!--    <h2 class="entry-title">--><?php //the_title(); ?><!--</h2>-->
     <div class="entry-content">
         <?php the_content(); ?>
     </div> <?php wp_reset_query(); ?>
@@ -69,25 +75,47 @@ while($query1->have_posts()) $query1->the_post(); ;?>
 <?php
 $query1 = new WP_Query('page_id=57');
 while($query1->have_posts()) $query1->the_post(); ;?>
-    <h2 class="entry-title"><?php the_title(); ?></h2>
+<!--    <h2 class="entry-title">--><?php //the_title(); ?><!--</h2>-->
     <div class="entry-content">
         <?php the_content(); ?>
     </div> <?php wp_reset_query(); ?>
 
 
     <!--Виды работ-->
-    <section class="section_6">
-        <?php include"parts/vid.php"?>
-    </section>
+<!--    <section class="section_6">-->
+<!--        --><?php //include"parts/vid.php"?>
+<!--    </section>-->
+
+
+<?php
+$query1 = new WP_Query('page_id=94');
+while($query1->have_posts()) $query1->the_post(); ;?>
+    <!--    <h2 class="entry-title">--><?php //the_title(); ?><!--</h2>-->
+    <div class="entry-content">
+        <?php the_content(); ?>
+    </div> <?php wp_reset_query(); ?>
+
+
+
     <!--Наши преимущества-->
     <section class="section_7">
         <?php include"parts/plus.php"?>
     </section>
+
+
     <!--Наши контакты-->
 
-    <section class="section_8">
-        <?php include"parts/contact.php"?>
-    </section>
+<!--    <section class="section_8">-->
+<!--        --><?php //include"parts/contact.php"?>
+<!--    </section>-->
+
+<?php
+$query1 = new WP_Query('page_id=39');
+while($query1->have_posts()) $query1->the_post(); ;?>
+    <!--    <h2 class="entry-title">--><?php //the_title(); ?><!--</h2>-->
+    <div class="entry-content">
+        <?php the_content(); ?>
+    </div> <?php wp_reset_query(); ?>
 
     <!--Секция попапа-->
     <section class="section_11">
