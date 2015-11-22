@@ -161,38 +161,7 @@ while($query1->have_posts()) $query1->the_post(); ;?>
 
 
 
-<div class="scroling">
-        <ul>
-            <li class="nav-link">
-                <a id="1" href="section_2"><i class="fa fa-gg-circle"></i></a>
-            </li>
-            <li class="nav-link">
-                <a id="2" href="section_9"><i class="fa fa-gg-circle"></i></a>
-            </li>
-            <li class="nav-link">
-                <a id="3" href="section_10"><i class="fa fa-gg-circle"></i></a>
-            </li>
-            <li class="nav-link">
-                <a id="4" href="section_3"><i class="fa fa-gg-circle"></i></a>
-            </li>
-            <li class="nav-link">
-                <a id="5" href="section_4"><i class="fa fa-gg-circle"></i></a>
-            </li>
-            <li class="nav-link">
-                <a id="6" href="section_5"><i class="fa fa-gg-circle"></i></a>
-            </li>
-            <li class="nav-link">
-                <a id="7" href="section_6"><i class="fa fa-gg-circle"></i></a>
-            </li>
-            <li class="nav-link">
-                <a id="8" href="section_7"><i class="fa fa-gg-circle"></i></a>
-            </li>
-            <li class="nav-link">
-                <a id="9" href="section_8"><i class="fa fa-gg-circle"></i></a>
-            </li>
 
-        </ul>
-    </div>
 
 
 <?php get_footer(); ?>

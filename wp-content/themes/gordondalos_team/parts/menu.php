@@ -6,21 +6,21 @@
             </a>
             <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu"><i class="fa fa-bars"></i></a>
             <nav role="navigation">
-                <!--можно вывести так но у меня слишком специфичное--><?php //wp_nav_menu( 'primary'); ?>
-                <ul id="js-navigation-menu" class="navigation-menu show">
-<!--                    <li class="nav-link"><a id="kompany" href="section_9">О Компании</a></li>-->
-                    <li class="nav-link"><a id="kompany" href="<?php bloginfo('url'); ?>/company/">О Компании</a></li>
-<!--                    <li class="nav-link"><a id="raboti" href="section_10">Наши работы</a></li>-->
-                    <li class="nav-link"><a id="raboti" href="<?php bloginfo('url'); ?>/category/our-job/">Наши работы</a></li>
-<!--                    <li class="nav-link"><a id="foto" href="section_3">Фотогалерея</a></li>-->
-                    <li class="nav-link"><a id="foto" href="<?php bloginfo('url'); ?>/category/gallery/">Фотогалерея</a></li>
-<!--                    <li class="nav-link"><a id="vid" href="section_6">Виды работ</a></li>-->
-                    <li class="nav-link"><a id="vid" href="<?php bloginfo('url'); ?>/vid/">Виды работ</a></li>
-<!--                    <li class="nav-link"><a id="contact" href="section_8">Контакты</a></li>-->
-                    <li class="nav-link"><a id="contact" href="<?php bloginfo('url'); ?>/contact/">Контакты</a></li>
-                    <li class="nav-link"><a href="<?php bloginfo('url'); ?>/prise/">Цены</a></li>
 
-                </ul>
+            <ul id="js-navigation-menu" class="navigation-menu show">
+                <li class="nav-link"><a id="1" href="section_9">О Компании</a></li>
+
+                <li class="nav-link"><a id="3" href="section_10">Наши работы</a></li>
+
+                <li class="nav-link"><a id="4" href="section_3">Фотогалерея</a></li>
+
+                <li class="nav-link"><a id="7" href="section_6">Виды работ</a></li>
+
+                <li class="nav-link"><a id="9" href="section_8">Контакты</a></li>
+            </ul>
+
+
+
 
 
 
@@ -35,3 +35,37 @@
         </div>
     </header>
 </section>
+
+
+<!--<div class="scroling">-->
+<!--    <ul>-->
+<!--        <li class="nav-link">-->
+<!--            <a id="1" href="section_2"><i class="fa fa-gg-circle"></i></a>-->
+<!--        </li>-->
+<!--        <li class="nav-link">-->
+<!--            <a id="2" href="section_9"><i class="fa fa-gg-circle"></i></a>-->
+<!--        </li>-->
+<!--        <li class="nav-link">-->
+<!--            <a id="3" href="section_10"><i class="fa fa-gg-circle"></i></a>-->
+<!--        </li>-->
+<!--        <li class="nav-link">-->
+<!--            <a id="4" href="section_3"><i class="fa fa-gg-circle"></i></a>-->
+<!--        </li>-->
+<!--        <li class="nav-link">-->
+<!--            <a id="5" href="section_4"><i class="fa fa-gg-circle"></i></a>-->
+<!--        </li>-->
+<!--        <li class="nav-link">-->
+<!--            <a id="6" href="section_5"><i class="fa fa-gg-circle"></i></a>-->
+<!--        </li>-->
+<!--        <li class="nav-link">-->
+<!--            <a id="7" href="section_6"><i class="fa fa-gg-circle"></i></a>-->
+<!--        </li>-->
+<!--        <li class="nav-link">-->
+<!--            <a id="8" href="section_7"><i class="fa fa-gg-circle"></i></a>-->
+<!--        </li>-->
+<!--        <li class="nav-link">-->
+<!--            <a id="9" href="section_8"><i class="fa fa-gg-circle"></i></a>-->
+<!--        </li>-->
+<!---->
+<!--    </ul>-->
+<!--</div>-->
