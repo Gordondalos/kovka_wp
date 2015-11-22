@@ -9,7 +9,7 @@ Template Name: Шаблон главной страницы
     <!--Меню-->
 <?php include"parts/menu.php"?>
 
-    <!--Паралакс на главной-->
+<!--    Паралакс на главной-->
     <section class="section_2">
         <?php include"parts/section_2.php"?>
     </section>
@@ -19,25 +19,61 @@ Template Name: Шаблон главной страницы
         <?php include"parts/theme_content.php"?>
     </section>
 
-    <!--Наши работы слайдер-->
+<!--    Наши работы слайдер-->
     <section class="section_10">
         <?php include"parts/slider.php"?>
     </section>
 
+
+
+
+
+
     <!--Фото галерея-->
-    <section class="section_3">
-        <?php include"parts/photogalereya.php"?>
-    </section>
+<!--    <section class="section_3">-->
+<!--        --><?php //include"parts/photogalereya.php"?>
+<!--    </section>-->
+    <!--Фото галерея-->
+<?php
+$query1 = new WP_Query('page_id=70');
+while($query1->have_posts()) $query1->the_post(); ;?>
+    <h2 class="entry-title"><?php the_title(); ?></h2>
+    <div class="entry-content">
+        <?php the_content(); ?>
+    </div> <?php wp_reset_query(); ?>
+
 
     <!--Как мы производим изделия из металла высочайшего качества-->
-    <section class="section_4">
-        <?php include"parts/job.php"?>
-    </section>
+<!--    <section class="section_4">-->
+<!--        --><?php //include"parts/job.php"?>
+<!--    </section>-->
+
+<?php
+$query1 = new WP_Query('page_id=88');
+while($query1->have_posts()) $query1->the_post(); ;?>
+    <h2 class="entry-title"><?php the_title(); ?></h2>
+    <div class="entry-content">
+        <?php the_content(); ?>
+    </div> <?php wp_reset_query(); ?>
+
+
+
 
     <!--Как мы работаем-->
-    <section class="section_5">
-        <?php include"parts/info_job.php"?>
-    </section>
+<!--    <section class="section_5">-->
+<!--        --><?php //include"parts/info_job.php"?>
+<!--    </section>-->
+
+    <!--Как мы работаем-->
+
+<?php
+$query1 = new WP_Query('page_id=57');
+while($query1->have_posts()) $query1->the_post(); ;?>
+    <h2 class="entry-title"><?php the_title(); ?></h2>
+    <div class="entry-content">
+        <?php the_content(); ?>
+    </div> <?php wp_reset_query(); ?>
+
 
     <!--Виды работ-->
     <section class="section_6">
