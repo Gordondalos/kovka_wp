@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d84a8e22-0d65-4996-871e-8b91e6971613" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/gordondalos_team/parts/menu.php" afterPath="$PROJECT_DIR$/wp-content/themes/gordondalos_team/parts/menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/gordondalos_team/parts/section_2.php" afterPath="$PROJECT_DIR$/wp-content/themes/gordondalos_team/parts/section_2.php" />
-    </list>
+    <list default="true" id="d84a8e22-0d65-4996-871e-8b91e6971613" name="Default" comment="" />
     <ignored path="kovka_wp.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
