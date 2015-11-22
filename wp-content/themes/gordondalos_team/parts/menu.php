@@ -28,7 +28,9 @@
             <div class="navigation-tools">
                 <div class="search-bar">
                     <form role="search">
-                        <h4><i class="fa fa-phone"></i> +7(909)154-55-55</h4>
+                        <h4><i class="fa fa-phone"></i>
+                             <?php bloginfo('description'); ?>
+<!--                            +7(909)154-55-55</h4>-->
                     </form>
                 </div>
             </div>

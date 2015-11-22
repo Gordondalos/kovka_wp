@@ -1,6 +1,6 @@
 <div id="js-parallax-window" class="parallax-window">
     <div class="parallax-static-content">
-        <h1 style="margin-bottom: -20px;"><?php bloginfo('description')?><br> <span><?php bloginfo('name')?></span></h1>
+        <h1 style="margin-bottom: -20px;">Студия художественной ковки<br> <span><?php bloginfo('name')?></span></h1>
 
         <!--				<h1>Студия художественной ковки <br> <span>Ferrarius</span></h1>-->
         <br>
