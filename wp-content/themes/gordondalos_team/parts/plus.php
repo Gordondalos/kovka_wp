@@ -25,6 +25,9 @@
         <img src="<?php bloginfo("template_directory");?>/img/ferrarius.png" alt="logo">
         <h3>При сумме заказа от 99000 рублей </h3>
         <p>кованый презент от мастера.</p>
+        <img style="min-width: 200px; height: 200px; float:right; margin-top: -150px;" src="<?php bloginfo("template_directory");
+        ?>/img/box.jpg"
+             alt="box">
     </a>
     <a href="javascript:void(0)" class="grid-item">
         <img src="<?php bloginfo("template_directory");?>/img/ferrarius.png" alt="logo">
