@@ -36,3 +36,19 @@ header.navigation ul li.nav-link{
 	top: 17px;
 	left: 70px;
 }
+
+
+@media screen and (min-width: 40em){
+	.grid-items-lines .grid-item p{
+	max-width: 100%;
+	}
+
+}
+
+.section_6 li.block img{
+	max-height: 197px;
+}
+
+.section_4 li.block img{
+	max-height: 149px;
+}
