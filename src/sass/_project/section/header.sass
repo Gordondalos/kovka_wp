@@ -1,21 +1,18 @@
 .searchbardiv
 	display: block
 	position: absolute
-	background: #7D1935
+	background: $white
 	top: 50px
-	right: 0px
 	z-index: 1001
-	width: 100%
+	width: 50%
+	left: 50%
+	transform: translateX(-50%)
 	max-width: 100%
-	padding: 10px
-	margin: 0px
+	padding: 3px
+	margin: 20px
 
 .buttonsearch
-	position: absolute
-	top: 18px
-	float: right
-	right: 0px
-	margin-right: 10px
+	@include size(18px)
 	background-color: transparent
 	border: 0px
 	-webkit-box-shadow: none
@@ -26,6 +23,10 @@
 		-moz-box-shadow: none
 		box-shadow: none
 		border: 0px
+	i
+		color: $white
+
+
 
 #formsearch
 	display: none
@@ -69,3 +70,108 @@
 
 .navbar-fixed-top
 	position: relative
+
+header
+	background-image: url('../img/bgg.jpg')
+	background-position: center
+	background-size: cover
+	min-height: 768px
+	margin-bottom: 20px
+
+
+
+.navbar-default
+	border: none
+	background: none
+	margin-top: 0
+	margin-left: 0%
+	position: relative
+
+
+
+
+// Style for "Rectangle 68"
+.gradient
+	position: absolute
+	top: 0
+	left: 0
+	@include size(100% 115px)
+	@include background-image(linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%))
+
+.navbar-default .navbar-nav  li  a,
+.navbar-default .navbar-nav  li  a:hover,
+.navbar-default .navbar-nav  li  a:focus
+	color: $white
+	font-family: $body-font-famaly-regular
+	font-size: 15px
+	font-weight: 400
+	line-height: 20px
+	text-transform: uppercase
+	margin-top: 0
+	padding: 23px
+
+.dropdown
+	padding-left: 20px
+	padding-top: 10px
+	a.dropdown-toggle
+		background-image: url('../img/menu.png')
+		background-position: center
+		background-repeat: no-repeat
+
+
+.dropdown.open
+	@extend .dropdown
+	a.dropdown-toggle
+		background-image: url('../img/menu2.png')!important
+		background-position: center
+		background-repeat: no-repeat
+
+
+
+
+.navbar-default .dropdown-menu
+	left: -163px
+	min-width: 231px
+	li
+		text-align: center
+		a
+			color: $black
+			padding: 0
+		a:hover
+			color: $black
+			padding: 0
+		a:focus
+			color: $black
+			padding: 0
+
+
+// lid
+.lid
+	background-color: rgba(255,255, 255,0.75)
+	padding: 34px 75px 34px 34px
+	display: inline-block
+	position: absolute
+	right: 0
+	top: 40%
+
+.lid p
+	font-size: 24px
+	font-weight: 600
+
+.lid span
+	font-size: 97px
+	@extend h1
+	color: $light-blue
+.button_down
+	position: relative
+	left: 50%
+	margin-top: 50%
+	bottom: 20px
+	transform: translateX(-50%)
+	width: 80px
+	height: 80px
+
+.button_down img
+	width: 100%
+	height: 100%
+

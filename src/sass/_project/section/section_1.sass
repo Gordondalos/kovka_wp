@@ -1,3 +1,67 @@
+.section_1
+	.navbar-default .navbar-nav  li  a,
+	.navbar-default .navbar-nav  li  a:hover,
+	.navbar-default .navbar-nav  li  a:focus
+		color: $black
+	.dropdown
+		padding-left: 20px
+		padding-top: 10px
+		a.dropdown-toggle
+			background-image: url('../img/menu2.png')
+			background-position: center
+			background-repeat: no-repeat
+	.buttonsearch
+		i
+			color: $black
+
+
+
+//hidden menu for small display
+.nav_hidden
+	display: none
+	position: fixed
+	left: 50%
+	transform: translateX(-50%)
+	background-color: $white
+	width: 100%
+	z-index: 1000
+	.navbar-default
+		margin: 0
+		.navbar-nav .open  a,
+		.navbar-nav a,
+		.navbar-nav .open  a:hover,
+		.navbar-nav .open  a:focus
+			background-color: $white
+		.glyphicon
+			color: $black
+
+
+
+	ul
+		float: right
+		.buttonsearch i
+			color: $black
+		.dropdown a.dropdown-toggle
+			background-image: url('../img/menu2.png')
+		.search
+			padding: 0 5px
+			height: 64px
+			border-right: 1px solid $nav-bordeer
+			border-left: 1px solid $nav-bordeer
+			a
+				height: 100%
+				width: 100%
+				display: block
+		.dropdown-menu
+			margin-top: 8px
+			left: - 143px
+
+	#formsearch3
+		width: 50%
+		margin: 20px auto
+		color: $black
+
+
 
 
 

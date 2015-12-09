@@ -23,67 +23,515 @@
 <body>
 <!--header-->
 <header>
+    <!-- Block gradient -->
+    <div class="gradient">
+    
+    </div>
+    <!-- end block gradient -->
+    
     <!-- Block nav -->
     <div class="nav">
         <div class="container">
             <div class="row">
-                <nav class="navbar navbar-default navbar-fixed-top">
-                    <div class="container">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">Brand</a>
-                        </div>
+                <div class="wrap-nav">
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                            </div>
     
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                                <li><a href="#">Link</a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">One more separated link</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div><!-- /.navbar-collapse -->
-                        <div class="container searchbardiv" id="formsearch">
-                            <form role="search" method="get" id="searchform"  >
-                                <div class="input-group">
-                                    <input type="text" id="searchbox" class="form-control" name="s" id="s">
-                                    <div class="input-group-btn">
-                                        <button class="btn btn-default"  id="searchsubmit"  type="submit">
-                                            <strong>Search</strong>
-                                        </button>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#">KNOWLEDGE CENTRE <span class="sr-only">(current)</span></a></li>
+                                    <li><a href="#">BREEDING IMPROVEMENT</a></li>
+                                    <li><a href="#"> NEWS</a></li>
+                                    <li><a href="#">PARTNERS</a></li>
+                                    <li><a href="#">EVENTS</a></li>
     
+                                    <li>
+                                        <a type="button" class="buttonsearch" id="buttonsearch">
+                                            <i class="glyphicon glyphicon-search openclosesearch"></i><i
+                                                class="glyphicon glyphicon-remove openclosesearch"
+                                                style="display:none"></i>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                           aria-haspopup="true" aria-expanded="false"></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">MEMBER LOGIN <img src="img/sign_in_icon.png" alt=""></a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">HOME</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">ABOUT US</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">LINKS</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">CONTACT US</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">HOLSTEIN UK</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">CIS</a></li>
+                                        </ul>
+                                    </li>
+    
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                            <div class="container searchbardiv" id="formsearch">
+                                <form role="search" method="get" id="searchform">
+                                    <div class="input-group">
+                                        <input type="text" id="searchbox" class="form-control" name="s" id="s">
+    
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" id="searchsubmit" type="submit">
+                                                <strong>Search</strong>
+                                            </button>
+    
+                                        </div>
                                     </div>
-                                </div>
-                            </form>
+                                </form>
     
+                            </div>
                         </div>
-                    </div><!-- /.container -->
-                    <button type="button" class="buttonsearch" id="buttonsearch">
-                        <i class="glyphicon glyphicon-search openclosesearch"></i><i class="glyphicon glyphicon-remove openclosesearch" style="display:none"></i>
-                    </button>
-                </nav>
+                        <!-- /.container -->
+    
+                    </nav>
+    
+    
+                </div>
             </div>
         </div>
     </div>
     <!-- end block nav -->
+    
+    <!-- Block nav_hidden -->
+    <div class="nav_hidden container-fluid">
+        <div class="nav">
+            <div class="container-fluid">
+                <div class="row">
+    
+                        <nav class="navbar navbar-default navbar-fixed-top">
+    
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <div class="navbar-header">
+                                        <a class="navbar-brand" href="#"><img src="img/logo2.png" alt=""></a>
+    
+                                    </div>
+                                    <ul class="nav navbar-nav">
+    
+                                        <li class="search">
+                                            <a type="button" class="buttonsearch3" id="buttonsearch3">
+                                                <i class="glyphicon glyphicon-search openclosesearch3"></i>
+                                                <i class="glyphicon glyphicon-remove openclosesearch3"
+                                                    style="display:none"></i>
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                               aria-haspopup="true" aria-expanded="false"></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">MEMBER LOGIN <img src="img/sign_in_icon.png" alt=""></a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">HOME</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">KNOWLEDGE CENTRE <span class="sr-only">(current)</span></a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">BREEDING IMPROVEMENT</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#"> NEWS</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">PARTNERS</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">EVENTS</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">ABOUT US</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">LINKS</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">CONTACT US</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">HOLSTEIN UK</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#">CIS</a></li>
+                                            </ul>
+                                        </li>
+    
+                                    </ul>
+                                </div>
+                                <!-- /.navbar-collapse -->
+                                <div class="container searchbardiv3" id="formsearch3" style="display: none">
+    
+    
+    
+                                    <form role="search" method="get" id="searchform3">
+                                        <div class="input-group">
+                                            <input type="text" id="searchbox3" class="form-control" name="s" id="s">
+    
+                                            <div class="input-group-btn">
+                                                <button class="btn btn-default" id="searchsubmit3" type="submit">
+                                                    <strong>Search</strong>
+                                                </button>
+    
+                                            </div>
+                                        </div>
+                                    </form>
+    
+                                </div>
+    
+                            <!-- /.container -->
+    
+                        </nav>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end block nav_hidden -->
+    <!-- Block lid -->
+    <div class="lid">
+    <p>The Centre for Dairy Information</p>
+    <h1>DELIVERING EFFICIENCY</h1>
+    <span>THROUGH DATA</span>
+    </div>
+    <!-- end block lid -->
+    
+    <!-- Block button_down -->
+    <div id="button_down" class="button_down">
+        <a href="section7" class="scroll_to">
+            <img src="img/scroll_button.png" alt="">
+        </a>
+    </div>
+    <!-- end block button_down -->
 </header>
 <!--/header-->
+
+<!--section_dubble_menu-->
+<section class="section_1">
+    <!-- Block nav -->
+    <div class="nav">
+        <div class="container">
+            <div class="row">
+                <div class="wrap-nav">
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#"><img src="img/logo2.png" alt=""></a>
+                            </div>
+    
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#">KNOWLEDGE CENTRE <span class="sr-only">(current)</span></a></li>
+                                    <li><a href="#">BREEDING IMPROVEMENT</a></li>
+                                    <li><a href="#"> NEWS</a></li>
+                                    <li><a href="#">PARTNERS</a></li>
+                                    <li><a href="#">EVENTS</a></li>
+    
+                                    <li>
+                                        <a type="button" class="buttonsearch" id="buttonsearch1">
+                                            <i class="glyphicon glyphicon-search openclosesearch1"></i><i
+                                                class="glyphicon glyphicon-remove openclosesearch1"
+                                                style="display:none"></i>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                           aria-haspopup="true" aria-expanded="false"></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">MEMBER LOGIN <img src="img/sign_in_icon.png" alt=""></a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">HOME</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">ABOUT US</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">LINKS</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">CONTACT US</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">HOLSTEIN UK</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">CIS</a></li>
+                                        </ul>
+                                    </li>
+    
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                            <div class="container searchbardiv" id="formsearch1" style="display: none">
+                                <form role="search" method="get" id="searchform1">
+                                    <div class="input-group">
+                                        <input type="text" id="searchbox1" class="form-control" name="s" id="s">
+    
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" id="searchsubmit1" type="submit">
+                                                <strong>Search</strong>
+                                            </button>
+    
+                                        </div>
+                                    </div>
+                                </form>
+    
+                            </div>
+                        </div>
+                        <!-- /.container -->
+    
+                    </nav>
+    
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end block nav -->
+</section>
+<!--/section_dubble_menu-->
+
+<!-- Section h1_section -->
+<section class="section_2">
+    <h3>THE CENTRE FOR DAIRY INFORMATION</h3>
+    <p>Exists to develop industry-leading analysis of data <br>  for the improvement of dairy production in the UK.</p>
+    <div class="btn-wrap">
+        <a href="#" class="btn_primary">ABOUT THE CDI</a>
+    </div>
+</section>
+<!-- Section h1_section-->
+
+<!-- Section items -->
+<section class="section_3">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <!--Up_item-->
+                <div class="row up_item">
+                    <div class="col-sm-6 item clicks" id="item1">
+                        <div class="img-wrap"><img src="img/item1.jpg" alt=""></div>
+                        <div class="text_item">
+                            <a href="#"><h3>KNOWLEDGE CENTRE</h3></a>
+                            <p class="hidden-text item1">CDI has collated the results recorded in the UK for Registered
+                                animals from lactations produced over the two forage seasons
+                                from spring 2013 to autumn 2014
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 item clicks" id="item2">
+                        <div class="img-wrap"><img src="img/item2.jpg" alt=""></div>
+                        <div class="text_item">
+                            <a href="#"><h3>BREEDING IMPROVEMENT</h3></a>
+                            <p class="hidden-text item2">CDI has collated the results recorded in the UK for Registered
+                                animals from lactations produced over the two forage seasons
+                                from spring 2013 to autumn 2014
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--//Up_item-->
+                <!--Down_item-->
+              <div class="row down_item">
+                  <div class="col-md-4 item clicks" id="item3">
+                      <div class="img-wrap"><img src="img/item3.jpg" alt=""></div>
+                      <div class="text_item">
+                          <a href="#"><h3>LATEST NEWS</h3></a>
+                          <div class="view-wrap">
+                              <a href="#" class="btn_reverse view">VIEW</a>
+                          </div>
+                          <p class="hidden-text item3">CDI has collated the results recorded in the UK for Registered
+                              from spring 2013 to autumn 2014
+                          </p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 item clicks" id="item4">
+                      <div class="img-wrap"><img src="img/item4.jpg" alt=""></div>
+                      <div class="text_item">
+                          <a href="#"><h3>EVENTS</h3></a>
+                          <div class="view-wrap">
+                              <a href="#" class="btn_reverse view">VIEW</a>
+                          </div>
+                          <p class="hidden-text item4">CDI has collated the results recorded in the UK for Registered
+                              animals from lactations produced over the two forage seasons
+                              from spring 2013 to autumn 2014
+                          </p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 item clicks" id="item5">
+                      <div class="img-wrap"><img src="img/item5.jpg" alt=""></div>
+                      <div class="text_item">
+                          <a href="#"><h3>PARTNERS</h3></a>
+                          <div class="view-wrap">
+                              <a href="#" class="btn_reverse view">VIEW</a>
+                          </div>
+                          <p class="hidden-text item5">CDI has collated the results recorded in the UK for Registered
+                              animals from lactations produced over the two forage seasons
+                          </p>
+                      </div>
+                  </div>
+              </div>
+                <!--//Down_item-->
+          </div>
+      </div>
+    </div>
+</section>
+<!-- Section items-->
+
+<!-- Section cow -->
+<section class="section_4">
+    <!--this is block contain sky and cow-->
+    <div class="cow">
+    </div>
+    <!--end block sky and cow-->
+</section>
+<!-- Section cow-->
+
+<!-- Section footer_nav -->
+<section class="section_5">
+    <!--Navigation_footer-->
+    <nav>
+        <div class="container-fluid">
+            <!--visible_menu_footer-->
+            <div class="container visible_menu_footer">
+                <div class="row">
+                    <div class="col-sm-3 ">
+                        <h4>LINKS <img src="img/Icons/links_icon.png" alt=""></h4>
+                        <ul>
+                            <li><a href="#">Sign in</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Cookie policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 ">
+                        <h4>ABOUT <img src="img/Icons/about_icon.png" alt=""></h4>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About the CDI</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 ">
+                        <h4>TOOLS <img src="img/Icons/tools_icon.png" alt=""></h4>
+                        <ul>
+                            <li><a href="#">Bull Selector</a></li>
+                            <li><a href="#">WebMate</a></li>
+                            <li><a href="#">WebReg</a></li>
+                            <li><a href="#">Virtual Cow</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 ">
+                        <h4>CONTACT US <img src="img/Icons/contact_icon.png" alt=""></h4>
+                        <ul>
+                            <li><a href="#">Tel: +44(0) 1923 695 298</a></li>
+                            <li><a href="#">Email: info@holstein-uk.org</a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <span class="footer_copy">© Centre for Dairy Information 2015</span>
+                </div>
+            </div>
+            <!--//visible_menu_footer-->
+    
+            <!-- Block hidden_menu_footer -->
+            <div class="hidden_menu_footer">
+                <div class="bs-example">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <span></span>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span></span><h4>
+                                        LINKS</h4></a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href="#">Sign in</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Sitemap</a></li>
+                                        <li><a href="#">Cookie policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span></span><h4>
+                                        ABOUT</h4></a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">About the CDI</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span></span>
+                                        <h4>TOOLS</h4></a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href="#">Bull Selector</a></li>
+                                        <li><a href="#">WebMate</a></li>
+                                        <li><a href="#">WebReg</a></li>
+                                        <li><a href="#">Virtual Cow</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><span></span> <h4>
+                                        CONTACT</h4></a>
+                                </h4>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a href="#">Tel: +44(0) 1923 695 298</a></li>
+                                        <li><a href="#">Email: info@holstein-uk.org</a></li>
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <span class="footer_copy_media_small">© Centre for Dairy Information 2015</span>
+            </div>
+            <!-- end block hidden_menu_footer -->
+        </div>
+    </nav>
+    <!--//Navigation_footer-->
+</section>
+<!-- Section footer_nav-->
 
 
 <!--[if lt IE 9]>

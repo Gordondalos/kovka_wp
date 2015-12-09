@@ -3,10 +3,28 @@ $(document).ready(function () {
 
     $('#buttonsearch').click(function(){
         $('#formsearch').slideToggle( "fast",function(){
-            $( '#content' ).toggleClass( "moremargin" );
+        //    $( '#content' ).toggleClass( "moremargin" );
         } );
         $('#searchbox').focus();
         $('.openclosesearch').toggle();
+    });
+
+    $('#buttonsearch1').click(function(){
+        $('#formsearch1').slideToggle( "fast",function(){
+       //     $( '#content' ).toggleClass( "moremargin" );
+        } );
+        $('.openclosesearch1').toggle();
+        $('#searchbox1').focus();
+
+    });
+
+    $('#buttonsearch3').click(function(){
+        $('#formsearch3').slideToggle( "fast",function(){
+            $( '#content' ).toggleClass( "moremargin" );
+        } );
+        $('.openclosesearch3').toggle();
+        $('#searchbox3').focus();
+
     });
 
 
