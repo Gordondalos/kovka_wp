@@ -1,0 +1,71 @@
+.searchbardiv
+	display: block
+	position: absolute
+	background: #7D1935
+	top: 50px
+	right: 0px
+	z-index: 1001
+	width: 100%
+	max-width: 100%
+	padding: 10px
+	margin: 0px
+
+.buttonsearch
+	position: absolute
+	top: 18px
+	float: right
+	right: 0px
+	margin-right: 10px
+	background-color: transparent
+	border: 0px
+	-webkit-box-shadow: none
+	-moz-box-shadow: none
+	box-shadow: none
+	&:hover, &:focus
+		-webkit-box-shadow: none
+		-moz-box-shadow: none
+		box-shadow: none
+		border: 0px
+
+#formsearch
+	display: none
+
+.glyphicon.glyphicon-search
+	font-size: 18px
+
+#searchbox
+	box-shadow: none
+	padding: 8px 14px
+	&:hover
+		box-shadow: none
+
+.form-control:focus
+	border-color: #ccc
+
+.navbar-toggle
+	margin-right: 35px
+	border: none
+	background: transparent !important
+	&:hover
+		background: transparent !important
+	.icon-bar
+		width: 22px
+		transition: all 0.2s
+	.top-bar
+		transform: rotate(45deg)
+		transform-origin: 10% 10%
+	.middle-bar
+		opacity: 0
+	.bottom-bar
+		transform: rotate(-45deg)
+		transform-origin: 10% 90%
+	&.collapsed
+		.top-bar
+			transform: rotate(0)
+		.middle-bar
+			opacity: 1
+		.bottom-bar
+			transform: rotate(0)
+
+.navbar-fixed-top
+	position: relative
