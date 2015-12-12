@@ -10,6 +10,8 @@
 ////	timetransition: all .5s ease time
 //
 @media only screen and (max-width : 1200px)
+
+
 	.button_down
 		display: none
 	.section_1 .navbar-default
@@ -24,6 +26,23 @@
 		display: block
 	.nav_hidden .navbar-default
 		display: block
+	.section_7
+		.lid
+			display: block
+			position: relative
+			transform: translateY(0)
+			width: 100%
+			padding: 25px 0 0 25px
+			
+			
+	.knowledge_center_item_part_1 .row, .knowledge_center_item_part_2 .row
+		background-color: $white
+	
+	.knowledge_center_item_part_2 h3 ,.knowledge_center_item_part_1 h3
+		border-top: 2px solid $nav-bordeer
+		padding-top: 20px
+	.section_8
+		margin-top: 0
 
 
 
@@ -38,12 +57,19 @@
 //
 ///* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
+	.informer
+		right: -2px
 	.nav_hidden #formsearch3
 		width: 100%
-
-
 	.lid
 		display: none
+	.section_8
+		.knowledge_center_item_part_1 p,.knowledge_center_item_part_2 p
+			width: 100%
+		.item
+			margin: 20px  auto
+			min-height: 200px
+
 
 	//.nav_hidden
 	//	display: block
@@ -92,8 +118,10 @@
 //
 ///* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+	.nav_hidden .navbar-default .navbar-nav li.search a
+		margin: -22px -25px -25px
 	.nav_hidden ul .search
-		width: 56px
+		width: 46px
 
 	.item .view-wrap a
 		padding: 8px 15px 7px

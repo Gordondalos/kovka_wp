@@ -1,3 +1,13 @@
+//main-page
+// header
+header
+	background-image: url('../img/bgg.jpg')
+	background-position: center
+	background-size: cover
+	min-height: 768px
+	margin-bottom: 20px
+
+//form-search
 .searchbardiv
 	display: block
 	position: absolute
@@ -26,7 +36,7 @@
 	i
 		color: $white
 
-#searchsubmit3
+#searchsubmit3, #searchsubmit
 	padding: 7px 16px 6px
 
 #formsearch
@@ -43,6 +53,10 @@
 
 .form-control:focus
 	border-color: #ccc
+
+
+ul.nav.navbar-nav
+	float: right
 
 .navbar-toggle
 	margin-right: 35px
@@ -72,24 +86,12 @@
 .navbar-fixed-top
 	position: relative
 
-header
-	background-image: url('../img/bgg.jpg')
-	background-position: center
-	background-size: cover
-	min-height: 768px
-	margin-bottom: 20px
-
-
-
-
 .navbar-default
 	border: none
 	background: none
 	margin-top: 0
-	margin-left: 0%
+	margin-left: 0
 	position: relative
-
-
 
 
 // Style for "Rectangle 68"
@@ -112,9 +114,19 @@ header
 	margin-top: 0
 	padding: 23px
 
+.navbar-default .navbar-nav li.search
+	padding: 22px 20px 25px
+	a
+		padding: 22px 45px 44px 25px
+		margin: -22px -25px -25px
+		cursor: pointer
+		background-position: center
+
+
+
 .dropdown
-	padding-left: 20px
-	padding-top: 10px
+	padding: 10px 10px
+
 	a.dropdown-toggle
 		background-image: url('../img/menu.png')
 		background-position: center
@@ -127,9 +139,6 @@ header
 		background-image: url('../img/menu2.png')!important
 		background-position: center
 		background-repeat: no-repeat
-
-
-
 
 .navbar-default .dropdown-menu
 	left: -163px
@@ -177,3 +186,53 @@ header
 	width: 100%
 	height: 100%
 
+.dropdown:hover
+	background-color:  $bg_hover_navigation
+	a.dropdown-toggle
+		background-image: url("../img/menu2.png")
+		background-color:  $bg_hover_navigation
+
+.dropdown.open
+	background-color:  $bg_hover_navigation
+	a.dropdown-toggle.hovers:hover
+		background-image: url("../img/menu2.png")
+		background-color:  $bg_hover_navigation
+
+// no-main-page
+
+header.no_main
+	background: none
+	min-height: 80px
+	margin-bottom: 0
+	.navbar-default
+		margin-bottom: 0
+		border-bottom: 1px solid $nav-bordeer
+		.navbar-nav li
+			border-right: 1px solid $nav-bordeer
+			a
+				color: $navigation_black
+	.navbar-default .navbar-nav li:hover,
+	.navbar-default .navbar-nav li:focus
+		color: $navigation_black_hover
+		background-color:  $bg_hover_navigation
+
+	.buttonsearch i
+		color: $navigation_black
+	.dropdown
+		padding-bottom: 10px
+		a.dropdown-toggle
+			background-image: url("../img/menu2.png")
+	.dropdown:hover
+		background-color:  $bg_hover_navigation
+	.dropdown:visited
+		background-color:  $bg_hover_navigation
+
+	.dropdown
+		a.dropdown-toggle.hovers:focus
+			background-image: url("../img/menu2.png")
+
+	.navbar-default .navbar-nav li.search:hover
+		background-color: $bg_hover_navigation
+
+	.wrap-nav
+		background-color:  $white
