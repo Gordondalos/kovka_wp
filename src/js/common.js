@@ -1,6 +1,21 @@
 $(document).ready(function () {
 
 
+    $(".toogle-img-partners").click(function(){
+        var id = $(this).attr('id');
+
+        $("#"+id).toggleClass("rotate");
+
+       $("."+id).slideToggle("fast", function(){
+           $("."+id).attr("display","none");
+
+           //$("#"+id).addClass("transform","rotate(180deg)");
+       });
+    });
+
+
+
+
     $('#buttonsearch').click(function(){
         $('#formsearch').slideToggle( "fast",function(){
         //    $( '#content' ).toggleClass( "moremargin" );
