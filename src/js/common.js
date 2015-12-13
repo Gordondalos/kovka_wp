@@ -1,6 +1,11 @@
 $(document).ready(function () {
 
 
+ //приклеивание меню
+    $("#sticker").sticky({topSpacing:20});
+
+
+
     $(".toogle-img-partners").click(function(){
         var id = $(this).attr('id');
 
@@ -9,7 +14,6 @@ $(document).ready(function () {
        $("."+id).slideToggle("fast", function(){
            $("."+id).attr("display","none");
 
-           //$("#"+id).addClass("transform","rotate(180deg)");
        });
     });
 
@@ -135,3 +139,5 @@ $(window).load(function () {
     $(".loader").delay(400).fadeOut("slow");
 
 });
+
+
