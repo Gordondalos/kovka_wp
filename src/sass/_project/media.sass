@@ -24,6 +24,7 @@
 
 	.nav_hidden
 		display: block
+		padding-left: 0
 	.nav_hidden .navbar-default
 		display: block
 	.section_7
@@ -97,24 +98,23 @@
 			margin: 20px  auto
 			min-height: 200px
 
-	.sertificates
-		.dashboard
-			background-position: -150px 0
-		.text-wrap
-			border: none
+	.section_7
+		.certificates
+			.dashboard
+				background-position: -150px 0
+			.text-wrap
+				border: none
+				position: relative
+				img
+					position: absolute
+					top: -35px
+					right: -10px
+
+		.setrificates_h2_span
 			position: relative
-			img
-				position: absolute
-				top: -35px
-				right: -10px
-
-
-
-	.setrificates_h2_span
-		position: relative
-		display: block
-		width: 235px
-		margin-bottom: 20px
+			display: block
+			width: 235px
+			margin-bottom: 20px
 
 	.partner_items .item .toogle-img-partners
 		display: block
@@ -124,31 +124,17 @@
 	.partner_items .item .partner
 		display: none
 
-//	/*Disable Animation on Mobile Devices*/
-//	////.animated
-//	//	/*CSS transitions*/
-//	//	//-o-transition-property: none !important
-//	//	//-moz-transition-property: none !important
-//	//	//-ms-transition-property: none !important
-//	//	//-webkit-transition-property: none !important
-//	//	//transition-property: none !important
-//	//	///*CSS transforms*/
-//	//	//-o-transform: none !important
-//	//	//-moz-transform: none !important
-//	//	//-ms-transform: none !important
-//	//	//-webkit-transform: none !important
-//	//	//transform: none !important
-//	//	///*CSS animations*/
-//	//	//-webkit-animation: none !important
-//	//	//-moz-animation: none !important
-//	//	//-o-animation: none !important
-//	//	//-ms-animation: none !important
-//	//	//animation: none !important
-//
-///* Extra Small Devices, Phones */
+
+//* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+	.nav_hidden ul .dropdown-menu
+		left: - 186px
+
 	.nav_hidden .navbar-default .navbar-nav li.search a
-		margin: -22px -25px -25px
+		margin: 0
+		padding: 0
+
+
 	.nav_hidden ul .search
 		width: 46px
 
