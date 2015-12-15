@@ -12,15 +12,19 @@ header
 .searchbardiv
 	display: block
 	position: absolute
-	background: $white
-	top: 50px
+	//background: $white
+	top: 0
 	z-index: 1001
-	width: 50%
-	left: 50%
-	transform: translateX(-50%)
-	max-width: 100%
-	padding: 3px
-	margin: 20px
+	width: 100%
+	padding: 16px
+	margin: auto
+
+.wrap-search-form
+	position: relative
+
+#searchform
+	width: 100%
+
 
 .buttonsearch
 	@include size(18px)
@@ -118,7 +122,7 @@ ul.nav.navbar-nav
 .navbar-default .navbar-nav li.search
 	padding: 22px 20px 25px
 	a
-		padding: 22px 45px 44px 25px
+		padding: 22px 33px 44px 16px
 		margin: -22px -25px -25px
 		cursor: pointer
 		background-position: center
@@ -220,7 +224,9 @@ header.no_main
 	.navbar-default .navbar-nav li:focus
 		color: $navigation_black_hover
 		background-color:  $bg_hover_navigation
-
+	.searchbardiv
+		background-color: $white
+		margin-top: 5px
 	.buttonsearch i
 		color: $navigation_black
 	.dropdown
