@@ -1,6 +1,10 @@
 $(document).ready(function () {
 
 
+
+
+
+
  //приклеивание меню
     $("#sticker").sticky({topSpacing:20});
 
