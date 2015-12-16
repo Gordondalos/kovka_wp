@@ -1,27 +1,33 @@
 $(document).ready(function () {
 
 
+    $('.hidden-drop-menu-button').click(function(){
+        var page_w = $("html").width();
+        if(page_w < "480"){
+
+            $('.hidden-drop-menu').slideToggle('fast');
+
+        }else{
+            $('.hidden-drop-menu').css("display", "none");
+
+        }
+
+    });
+
+
 
 
 
 
  //приклеивание меню
     $("#sticker").sticky({topSpacing:20});
-
-
-
     $(".toogle-img-partners").click(function(){
         var id = $(this).attr('id');
-
         $("#"+id).toggleClass("rotate");
-
        $("."+id).slideToggle("fast", function(){
            $("."+id).attr("display","none");
-
        });
     });
-
-
 
 
     $('#buttonsearch').click(function(){
@@ -47,9 +53,7 @@ $(document).ready(function () {
         } );
         $('.openclosesearch3').toggle();
         $('#searchbox3').focus();
-
     });
-
 
 
     // выезд слайда
@@ -66,7 +70,6 @@ $(document).ready(function () {
     $(".scroll_to").click(function (e) {
         e.preventDefault();
         var elementClick = $(this).attr("href");
-
 
         console.log(elementClick);
         var destination = $('.' + elementClick).offset().top - 70;

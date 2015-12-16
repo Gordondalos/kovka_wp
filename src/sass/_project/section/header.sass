@@ -12,19 +12,30 @@ header
 .searchbardiv
 	display: block
 	position: absolute
-	//background: $white
 	top: 0
 	z-index: 1001
 	width: 100%
-	padding: 16px 16px 16px 0
+	padding: 16px
 	margin: auto
 
 .wrap-search-form
 	position: relative
+	margin-left: -15px
+
+
+
 
 #searchform
 	width: 100%
 
+
+#buttonsearch
+	&:active
+		background-color: $bg_hover_navigation
+	&:visited
+		background-color: $bg_hover_navigation
+	&:hover
+		background-color: $bg_hover_navigation
 
 .buttonsearch
 	@include size(18px)
@@ -37,9 +48,13 @@ header
 		-webkit-box-shadow: none
 		-moz-box-shadow: none
 		box-shadow: none
-		border: 0px
+		border: 0
 	i
 		color: $white
+	&:hover
+		i
+			color: $navigation_black
+
 
 #searchsubmit3, #searchsubmit
 	padding: 7px 16px 6px
@@ -50,7 +65,7 @@ header
 .glyphicon.glyphicon-search
 	font-size: 18px
 
-#searchbox
+#searchbox, #searchbox1
 	box-shadow: none
 	padding: 8px 14px
 	&:hover
@@ -240,8 +255,8 @@ header.no_main
 		color: $navigation_black_hover
 		background-color:  $bg_hover_navigation
 	.searchbardiv
-		background-color: $white
-		margin-top: 5px
+		background-color: $bg_hover_navigation
+		margin-top: 0
 	.buttonsearch i
 		color: $navigation_black
 	.dropdown
@@ -263,3 +278,19 @@ header.no_main
 
 	.wrap-nav
 		background-color:  $white
+
+.dropdown-menu
+	margin-top: 0
+	border-top: none
+	background-color:  $bg_hover_navigation
+	li.divider
+		border-bottom: 1px solid $nav-bordeer
+		border-right: none
+	li
+		border-right: none
+
+		&:first-child
+			padding-top: 7px
+
+		a
+			background-color:  $bg_hover_navigation !important

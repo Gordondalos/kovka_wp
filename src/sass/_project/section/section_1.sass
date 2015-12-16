@@ -18,6 +18,21 @@
 		margin-top: -6px
 
 
+#searchsubmit3, #searchsubmit, #searchsubmit1
+	background-color: $light-blue
+	background-image: url('../img/search.png')
+	background-repeat: no-repeat
+	background-position: center
+	border-radius: 0
+	width: 70px
+	height: 35px
+
+#formsearch3, #formsearch, #formsearch1
+	margin: auto
+	padding: 20px
+	color: $black
+	background-color:  $bg_hover_navigation
+
 //hidden menu for small display
 .nav_hidden
 	display: none
@@ -34,7 +49,7 @@
 		margin: 0
 		.navbar-nav .open  a,
 		.navbar-nav a
-			background-color: $white
+			//background-color: $white
 		.navbar-nav .open  a:hover,
 		.navbar-nav .open  a:focus
 			background-color: $bg_hover_navigation
@@ -71,10 +86,8 @@
 					background-color:  $bg_hover_navigation !important
 
 
-	#formsearch3
-		width: 50%
-		margin: 20px auto
-		color: $black
+	.form-control:focus
+		box-shadow: none
 	.navbar-default .navbar-nav li.search
 		padding: 22px 14px 25px
 		//border-right: 1px solid red
@@ -88,8 +101,18 @@
 
 #ul-dubble_menu
 	border-left: 1px solid $nav-bordeer
+
 	li
 		border-right: 1px solid $nav-bordeer
+		&:active
+			background-color: $bg_hover_navigation
+		&:visited
+			background-color: $bg_hover_navigation
+		&:hover
+			background-color: $bg_hover_navigation
+	.dropdown-menu
+		li
+			border: none
 
 .dubble_menu_wrapper
 	border-left: 1px solid $nav-bordeer
@@ -102,8 +125,6 @@
 	background: $white
 
 
-
-
 .navbar-fixed-top
 	margin-bottom: 0
 
@@ -113,5 +134,27 @@
 .li_buttonsearch1
 	padding: 24px
 
+
+
 #searchsubmit1
 	padding-bottom: 7px
+
+// dubble menu for phones
+.hidden-drop-menu
+	margin: 0
+	display: none
+	padding: 0 20px
+	width: 100%
+	text-align: center
+	border-top: none
+	background-color:  $bg_hover_navigation
+	li
+		padding: 5px
+		border-bottom: 1px solid $nav-bordeer
+	li
+		&:first-child
+			padding-top: 7px
+
+		a
+			color: $navigation_black
+			background-color:  $bg_hover_navigation !important
