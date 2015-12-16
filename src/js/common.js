@@ -1,6 +1,12 @@
 $(document).ready(function () {
 
 
+    var page_h= $(window).height();
+    //alert(page_h);
+    $('header').css('height', page_h);
+
+
+    // появление меню на мобильных устройствах во всю ширину
     $('.hidden-drop-menu-button').click(function(){
         var page_w = $("html").width();
         if(page_w < "480"){
@@ -13,10 +19,6 @@ $(document).ready(function () {
         }
 
     });
-
-
-
-
 
 
  //приклеивание меню
@@ -67,17 +69,30 @@ $(document).ready(function () {
     });
 
     ////Обработка нажатия на кнопку "Вниз"
+    //$(".scroll_to").click(function (e) {
+    //    e.preventDefault();
+    //    var elementClick = $(this).attr("href");
+    //
+    //    console.log(elementClick);
+    //    var destination = $('.' + elementClick).offset().top - 70;
+    //    console.log(destination);
+    //    $('body,html').animate({scrollTop: destination}, 2000);
+    //
+    //    return false;
+    //});
+
+
+
     $(".scroll_to").click(function (e) {
         e.preventDefault();
-        var elementClick = $(this).attr("href");
+        var page_hh = $(window).height();
 
-        console.log(elementClick);
-        var destination = $('.' + elementClick).offset().top - 70;
-        console.log(destination);
-        $('body,html').animate({scrollTop: destination}, 2000);
+        var destination = page_hh;
+        $('body,html').animate({scrollTop: destination}, 1000, 'linear');
 
         return false;
     });
+
 
 // манипуляции с итемками при изменении размера
     var winwidth = $(window).width();
