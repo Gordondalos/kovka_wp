@@ -220,6 +220,21 @@ header.no_main
 			border-right: 1px solid $nav-bordeer
 			a
 				color: $navigation_black
+			.dropdown-menu
+				margin-top: 0
+				border-top: none
+				background-color:  $bg_hover_navigation
+				li.divider
+					border-bottom: 1px solid $nav-bordeer
+					border-right: none
+				li
+					border-right: none
+
+					&:first-child
+						padding-top: 7px
+
+					a
+						background-color:  $bg_hover_navigation !important
 	.navbar-default .navbar-nav li:hover,
 	.navbar-default .navbar-nav li:focus
 		color: $navigation_black_hover
@@ -237,10 +252,11 @@ header.no_main
 		background-color:  $bg_hover_navigation
 	.dropdown:visited
 		background-color:  $bg_hover_navigation
-
 	.dropdown
 		a.dropdown-toggle.hovers:focus
 			background-image: url("../img/menu2.png")
+
+
 
 	.navbar-default .navbar-nav li.search:hover
 		background-color: $bg_hover_navigation

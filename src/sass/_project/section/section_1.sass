@@ -10,13 +10,12 @@
 			background-image: url('../img/menu2.png')
 			background-position: center
 			background-repeat: no-repeat
+
 	.buttonsearch
 		i
 			color: $black
 	.searchbardiv
 		margin-top: -6px
-
-
 
 
 //hidden menu for small display
@@ -41,10 +40,6 @@
 			background-color: $bg_hover_navigation
 		.glyphicon
 			color: $black
-
-
-
-
 	ul
 		float: right
 		.buttonsearch i
@@ -64,6 +59,17 @@
 		.dropdown-menu
 			margin-top: 0
 			left: - 164px
+			border-top: none
+			background-color:  $bg_hover_navigation
+			li.divider
+				border-bottom: 1px solid $nav-bordeer
+			li
+				&:first-child
+					padding-top: 7px
+
+				a
+					background-color:  $bg_hover_navigation !important
+
 
 	#formsearch3
 		width: 50%
